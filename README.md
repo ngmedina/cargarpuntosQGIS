@@ -1,6 +1,4 @@
-![image](https://github.com/user-attachments/assets/dd0f6882-0d3e-4cb5-a7fd-33206fa56daa)# Tutorial: Homogeneizar coordenadas y crear una capa de puntos en QGIS
-
-Este tutorial te guiará a través del proceso de homogeneizar coordenadas y crear una capa de puntos en QGIS a partir de una tabla de coordenadas.
+# Este tutorial te guiará a través del proceso de homogeneizar coordenadas y crear una capa de puntos en QGIS a partir de una tabla de coordenadas.
 
 ## Instrucciones para instalar QGIS en Windows
 
@@ -52,7 +50,7 @@ Debes homogeneizarlas a un formato consistente para asegurar que QGIS pueda proc
 - Selecciona las columnas de X (longitud) y Y (latitud) que contienen las coordenadas.
 - Define el sistema de referencia correcto. Si tus coordenadas están en grados decimales, selecciona WGS 84 (EPSG:4326).
 
-<img src= "https://github.com/ngmedina/cargarpuntosQGIS/blob/main/images/tutpuntosQGIS1.png" alt="img2" width="100"/>
+<img src= "https://github.com/ngmedina/cargarpuntosQGIS/blob/main/images/tutpuntosQGIS5.png" alt="img2" width="300"/>
 
 4. **Añadir la capa:**
 - Haz clic en "Añadir" y luego en "Cerrar". Ahora deberías ver los puntos en el mapa de QGIS, basados en las coordenadas de tu tabla.
@@ -72,7 +70,8 @@ Para visualizar mejor los puntos sobre un mapa de referencia, puedes añadir una
 2. **Añadir una capa base con el XYZ Tiles**:
    - En la ventana del "Administrador de fuentes de datos", selecciona `XYZ` en el menú lateral izquierdo.
    - Haz clic en el botón de `Nuevo` para añadir un servicio de mapa web (WMS/WMTS).
-<img src= "https://github.com/ngmedina/cargarpuntosQGIS/blob/main/images/tutpuntosQGIS1.png" alt="img3" width="100"/>
+
+<img src= "https://github.com/ngmedina/cargarpuntosQGIS/blob/main/images/tutpuntosQGIS2.png" alt="img3" width="300"/>
 
 3. **Configurar la capa de topografía**:
    - En la ventana emergente, introduce la siguiente información:
@@ -86,7 +85,7 @@ Para visualizar mejor los puntos sobre un mapa de referencia, puedes añadir una
 
 Ahora deberías ver una capa base con la topografía de la Península Ibérica en el fondo de tu mapa, lo que ayudará a proporcionar un contexto visual mejorado para tus datos de puntos.
 
-<img src= "https://github.com/ngmedina/cargarpuntosQGIS/blob/main/images/tutpuntosQGIS1.png" alt="img3" width="100"/>
+<img src= "https://github.com/ngmedina/cargarpuntosQGIS/blob/main/images/tutpuntosQGIS3.png" alt="img3" width="100"/>
 
 ---
 
@@ -101,7 +100,7 @@ Para añadir una capa que muestre las provincias de España, sigue los siguiente
    - En la ventana emergente selecciona las capas "SHP_ETRS89/II_autonomicas..." y "SHP_ETRS89/II_provinciales..."
  - Haz clic en `Añadir capas`.
 
-<img src= "https://github.com/ngmedina/cargarpuntosQGIS/blob/main/images/tutpuntosQGIS1.png" alt="img4" width="100"/>
+<img src= "https://github.com/ngmedina/cargarpuntosQGIS/blob/main/images/tutpuntosQGIS4.png" alt="img4" width="100"/>
 
 2. **Visualizar la capa:**
    - Después de cargar el archivo, deberías ver la capa de provincias en tu mapa de QGIS. Las provincias estarán delimitadas, lo que te permitirá visualizarlas junto a tus datos de puntos.
