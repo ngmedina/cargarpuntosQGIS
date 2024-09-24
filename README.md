@@ -18,7 +18,7 @@ Este tutorial te guiará a través del proceso de homogeneizar coordenadas y cre
 
 Si tienes coordenadas con un número de decimales variable como en el siguiente ejemplo:
 
-![Imagen tabla excel](ruta/de/la/imagen)
+![Imagen tabla excel]([https://github.com/ngmedina/cargarpuntosQGIS/blob/main/images/tutpuntosQGIS1.png])
 
 
 Debes homogeneizarlas a un formato consistente para asegurar que QGIS pueda procesarlas correctamente. Aquí te explicamos cómo hacerlo:
